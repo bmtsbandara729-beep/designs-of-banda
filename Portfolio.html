@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Designs of බණ්ඩා</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Gemunu+Libre:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#071120;
+    color:white;
+    font-family:'Poppins',sans-serif;
+    overflow-x:hidden;
+}
+
+/* NAVBAR */
+
+nav{
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#09182b;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.logo-text{
+    font-size:34px;
+    font-family:'Gemunu Libre',sans-serif;
+    color:#4fc3ff;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#4fc3ff;
+}
+
+/* HERO */
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero img{
+    width:180px;
+    margin-bottom:20px;
+    filter:drop-shadow(0 0 20px #1da1ff);
+    animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+
+.hero h1{
+    font-size:70px;
+    font-family:'Gemunu Libre',sans-serif;
+    color:#4fc3ff;
+}
+
+.hero h2{
+    font-size:28px;
+    margin-top:10px;
+    color:#d8d8d8;
+}
+
+.hero p{
+    width:70%;
+    margin-top:25px;
+    line-height:1.9;
+    color:#bfbfbf;
+    font-size:18px;
+}
+
+/* BUTTONS */
+
+.buttons{
+    margin-top:35px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.btn{
+    padding:14px 30px;
+    background:#1da1ff;
+    color:white;
+    text-decoration:none;
+    border-radius:40px;
+    transition:0.3s;
+    font-weight:600;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+    background:#4fc3ff;
+}
+
+/* SERVICES */
+
+.section-title{
+    text-align:center;
+    margin-top:50px;
+    font-size:45px;
+    color:#4fc3ff;
+    font-family:'Gemunu Libre',sans-serif;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:50px 8%;
+}
+
+.service-card{
+    width:280px;
+    background:#0d1b2e;
+    padding:30px;
+    border-radius:20px;
+    transition:0.3s;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.service-card h3{
+    margin-bottom:15px;
+    color:#4fc3ff;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    padding:50px 8%;
+}
+
+.card{
+    width:300px;
+    background:#0d1b2e;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.3s;
+    box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+    transition:0.4s;
+}
+
+.card img:hover{
+    transform:scale(1.05);
+}
+
+.card h3{
+    padding:20px;
+    text-align:center;
+}
+
+/* CONTACT */
+
+.contact{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.contact p{
+    margin-top:15px;
+    color:#bdbdbd;
+}
+
+/* FOOTER */
+
+footer{
+    background:#09182b;
+    padding:20px;
+    text-align:center;
+    color:#9b9b9b;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:48px;
+}
+
+.hero h2{
+    font-size:22px;
+}
+
+.hero p{
+    width:95%;
+    font-size:16px;
+}
+
+nav{
+    flex-direction:column;
+    gap:15px;
+}
+
+nav ul{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    width:90%;
+}
+
+.service-card{
+    width:90%;
+}
+
+.hero img{
+    width:140px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<div class="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Logos\Banda Logo.png">
+Designs of බණ්ඩා
+</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Services</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Logos\Banda Logo.png" alt="Logo">
+
+<h1>Designs of බණ්ඩා</h1>
+
+<h2>Creative Graphic Designer & Editor</h2>
+
+<p>
+I am a passionate and creative graphic designer from Sri Lanka who specializes in social media designs, YouTube thumbnails, modern flyers, posters, and video editing. 
+I focus on creating eye-catching and professional designs that help brands, businesses, and creators grow online with a modern and unique visual style.
+</p>
+
+<div class="buttons">
+
+<a href="#" class="btn">View Portfolio</a>
+
+<a href="https://wa.me/94757265161" class="btn">
+WhatsApp Me
+</a>
+
+</div>
+
+</section>
+
+<!-- SERVICES -->
+
+<h1 class="section-title">My Services</h1>
+
+<section class="services">
+
+<div class="service-card">
+<h3>Graphic Designing</h3>
+<p>Modern social media posts, flyers, posters, and branding designs.</p>
+</div>
+
+<div class="service-card">
+<h3>YouTube Thumbnails</h3>
+<p>Professional thumbnails designed to attract more viewers and clicks.</p>
+</div>
+
+<div class="service-card">
+<h3>Video Editing</h3>
+<p>Creative reels, shorts, subtitle edits, and cinematic editing styles.</p>
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+
+<h1 class="section-title">My Portfolio</h1>
+
+<section class="portfolio">
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Lenora'25\2.png">
+<h3>Invitation Card Design</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Lenora'25\Lenora '25 countdown 1.png">
+<h3>Counting for Event</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Lenora'25\Lenora '25 president">
+<h3>Tags Creations</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Logos\Face logo.jpg">
+<h3>Logo for YT channel</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Logos\LEO Graphics original logo.png">
+<h3>Logo for FB Page</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Logos\logo-k.jpg">
+<h3>Logo for Dance Academy</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Logos\lUXUARY DEVENTS.jpeg">
+<h3>Logo for Event Organizing team</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Logos\Media Club ousl .png">
+<h3>Logo for Universirt club</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\1.png">
+<h3>Youtube banner</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\2.2.png">
+<h3>Modern Flyer</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\36.png">
+<h3>Modern Flyer 02</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Angel Baking.png">
+<h3>Profile icon for FB</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Aspiring.png">
+<h3>Note Book Front page design</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Back drop.jpeg">
+<h3>Back Drop Design</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Buisness card back.png">
+<img Src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Buisness card front.png">
+<h3>Business Vard Front & Back Side</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\coming 01_.jpg">
+<h3>Social Media Post</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\DEWMI (1).png">
+<h3>Social Media Post 02</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Hand bill.png">
+<h3>Hand bill Design</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Hyp_Shirt_Mockup_1.png">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Hyp_Shirt_Mockup_2.png">
+<h3>T-shirt Design</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Hypatia Letter head.jpg">
+<h3>Prescription Design</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Hypatia Logo.png">
+<h3>Logo Design</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Luxaura EPE job vac.png">
+<h3>Social Media Post 03</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\News Paper.png">
+<h3>Social Media Post 04</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Scie new 25.11.27.png">
+<h3>Social Media Post 05</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Study plan.png">
+<h3>Study Plan</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Travelling.jpg">
+<h3>Social Media Post 05</h3>
+</div>
+
+<div class="card">
+<img src="C:\Users\my pc\OneDrive\Desktop\Leo Graphics\Social Media post\Wedding day.png">
+<h3>YT Thumbnail</h3>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h1 class="section-title">Contact Me</h1>
+
+<p>Email : thaarubandaranayake@gmail.com</p>
+
+<p>WhatsApp : +94 75 726 5161</p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Designs of බණ්ඩා | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
